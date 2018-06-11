@@ -1,0 +1,154 @@
+﻿<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>Filter</title>
+
+    <meta name="keywords" content="filter" />
+    <meta name="description" content="filter">
+
+    <!-- CSS -->
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel='stylesheet' href='css/base.css'>
+</head>
+<body>
+    <header>
+        <div class="logobox">
+            <div class="logo">HaveFun</div>
+        </div>
+        <div class="searchbox">
+            <div class="search">
+                <i class="fas fa-search"></i>
+                <input id="search" name="search" type="text" placeholder="Explore your own activities" autocomplete="on">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="menubox" style="font-family: 'Microsoft PhagsPa'">
+            <div class="menu">
+                <div class="locationbox">
+                    <div class="title">Location<div class="tipe"><i class="fas fa-minus"></i></div></div>
+                    <div class="locationmobile">
+                        <form>
+                            <select name="location">
+                                <option value="taiwan">Taiwan</option>
+                                <option value="United States of America">United States of America</option>
+                                <option value="japan">Japan</option>
+                                <option value="peru">Peru</option>
+
+                            </select>
+                        </form>
+                    </div>
+                </div>
+                <div class="datebox">
+                    <div class="title">Date<div class="tipe"><i class="fas fa-plus"></i></div></div>
+                    <div class="datemobile">
+                        <div class="datename">from</div><input id="from" name="from" type="date" placeholder="" autocomplete="on" value="2018-05-24"><br>
+                        <div class="datename">to</div><input id="to" name="to" type="date" placeholder="" autocomplete="on" value="2018-06-11">
+                    </div>
+                </div>
+                <div class="categoriesbox">
+                    <div class="title">Categories<div class="tipe"><i class="fas fa-plus"></i></div></div>
+                    <div class="categoriesmobile">
+                        <input type="checkbox" name="all">
+                        <label for="all">All</label><br>
+                        <input type="checkbox" name="entertainment">
+                        <label for="entertainment">Entertainment</label><br>
+                        <input type="checkbox" name="food">
+                        <label for="food">Food</label><br>
+                        <input type="checkbox" name="learning">
+                        <label for="learning">Learning</label><br>
+                        <input type="checkbox" name="outdoors">
+                        <label for="outdoors">Outdoors</label><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mainbox">
+            <div class="show-results">Showing <b>15</b> results by…</div><br />
+            <button class="btn2">Taipei&nbsp;&nbsp;&nbsp;X</button>
+            <button class="btn2">Tainan&nbsp;&nbsp;&nbsp;X</button>
+            <button class="btn2">Taichung&nbsp;&nbsp;&nbsp;X</button>
+            <button class="btn">Entertainment&nbsp;&nbsp;&nbsp;X</button>
+            <div class="allshowbox">
+
+                <div class="showbox">
+                    <div class="image">
+                        <img src="http://nymphetteindia.com/wp-content/uploads/2015/09/Taiwan-night-scene-wallpapers-1280x800-03.jpg" style="width:252px;height:252px;">
+                    </div>
+                    <div class="infobox">
+                        <div class="info">
+                            <h1 style="margin-top:10px;margin-bottom:10px;">Taipei 101 - Run Up Race</h1>
+                            <p>The Taipei 101 Run Up Race is an annual international grand sports event that attracts competitors from all over the world to compete with each other.</p>
+                            <div class="box01">
+                                <div class="locationzone">Taipei City Government</div>
+                                <div class="categoriesname" style="font-family: 'Microsoft PhagsPa';">Entertainment</div>
+                            </div>
+                            <div class="box02">
+                                <div class="locationname"><i class="fas fa-map-marker-alt"></i>Taipei City</div>
+                                <div class="date"><i class="far fa-calendar-alt"></i>2018/5/24 - 2018/5/31</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="showbox">
+                    <div class="image">
+                        <img src="http://x.webdo.cc/userfiles/53123213/image/tainan-%E5%AE%89%E5%B9%B3%E5%8F%A4%E5%A0%A11.jpg" style="width:252px;height:252px;">
+                    </div>
+                    <div class="infobox">
+                        <div class="info">
+                            <h1 style="margin-top:10px;margin-bottom:10px;">Anping Fort - 2018 New Year</h1>
+                            <p>The start of Lunar New Year holiday has always been the first choice for visitors to visit in Tainan.</p>
+                            <div class="box01">
+                                <div class="locationzone">Tainan City Government Culture Bureau</div>
+                                <div class="categoriesname" style="font-family: 'Microsoft PhagsPa';">Entertainment</div>
+                            </div>
+                            <div class="box02">
+                                <div class="locationname"><i class="fas fa-map-marker-alt"></i>Tainan City</div>
+                                <div class="date"><i class="far fa-calendar-alt"></i>2018/2/16 - 2018/2/20</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="showbox">
+                    <div class="image">
+                        <img src="http://www.greenhotel.com.tw/cg/wp-content/uploads/2017/01/DSC_19420.jpg" style="width:252px;height:252px;">
+                    </div>
+                    <div class="infobox">
+                        <div class="info">
+                            <h1 style="margin-top:10px;margin-bottom:10px;">National Taichung Theater - Pavel Haas Quartet</h1>
+                            <p>Founded in Prague, it debuted on the debut of the grand trophies of classical music records, and at the same time possessed excellent evaluation.</p>
+                            <div class="box01">
+                                <div class="locationzone">Classical FM97.7、Taiwan NCPA</div>
+                                <div class="categoriesname" style="font-family: 'Microsoft PhagsPa';">Entertainment</div>
+                            </div>
+                            <div class="box02">
+                                <div class="locationname"><i class="fas fa-map-marker-alt"></i>Taichung City</div>
+                                <div class="date"><i class="far fa-calendar-alt"></i>2018/1/21 - 2018/2/28</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pagebox">
+                <div class="previous">«</div>
+                <div class="page active">1</div>
+                <div class="page">2</div>
+                <div class="page">3</div>
+                <div class="page">4</div>
+                <div class="page">5</div>
+                <div class="next">»</div>
+            </div>
+
+        </div>
+    </main>
+
+</body>
+</html>

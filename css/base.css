@@ -1,0 +1,440 @@
+header {
+    max-width: 1200px;
+    height: 5%;
+    margin: 0px auto;
+    padding: 20px 0px;
+    background-color: #7828B4;
+}
+
+main {
+    max-width: 1200px;
+    min-height: 89%;
+    margin: 0px auto;
+    background: #F2F2F2;
+}
+
+.logobox {
+    display: inline-block;
+    width: 30%;
+    margin: 0px -2px;
+    vertical-align: top;
+}
+
+.searchbox {
+    display: inline-block;
+    width: 70%;
+    margin: 0px -2px;
+    vertical-align: top;
+}
+
+.logo {
+    font-family: 'Microsoft PhagsPa';
+    font-size: 36px;
+    line-height: 45px;
+    color: #FFFFFF;
+    margin: 0px 20%;
+    font-weight: 600;
+}
+
+.search {
+    width: 60%;
+    color: #FFFFFF;
+    padding: 5px;
+    margin: 5px 0px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+    .search .fa-search {
+        padding-right: 10px;
+    }
+
+    .search input#search {
+        width: 80%;
+        font-family: 'Microsoft PhagsPa';
+        border: none;
+        outline: none;
+        background-color: transparent;
+        font-size: 20px;
+        font-style: italic;
+        line-height: 24px;
+        color: rgba(255,255,255,0.50);
+    }
+
+.menubox {
+    display: inline-block;
+    width: 30%;
+    margin: 0px -2px;
+    vertical-align: top;
+}
+
+.menu {
+    margin: 0px 10%;
+    background: #EBEBEB;
+}
+
+.locationbox, .datebox, .categoriesbox {
+    padding: 20px 30px;
+    border-bottom: 1px solid #D7D7D7;
+}
+
+.menu .title {
+    margin: 10px 0px;
+    font-family: Microsoft PhagsPa;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.tipe {
+    width: 10%;
+    display: none;
+}
+
+.menu .datename {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    margin-right: 10px;
+    padding: 10px 0px;
+    font-family: Microsoft PhagsPa;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-align: right;
+}
+
+.menu select {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-family: Microsoft PhagsPa;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.menu input#from, .menu input#to {
+    width: 70%;
+    height: 40px;
+    margin-bottom: 5px;
+    border: none;
+    outline: none;
+    font-family: Microsoft PhagsPa;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.mainbox {
+    display: inline-block;
+    width: 70%;
+    margin: 0px -2px;
+    vertical-align: top;
+}
+
+    .mainbox .show-results {
+        margin-top: 20px;
+        font-family: Microsoft PhagsPa;
+        font-size: 24px;
+        color: #000000;
+    }
+
+        .mainbox .show-results b {
+            font-family: Microsoft PhagsPa;
+            font-size: 24px;
+            color: #9013FE;
+            line-height: 28px;
+            font-weight: bold;
+        }
+
+    .mainbox .allshowbox {
+    }
+
+    .mainbox .showbox {
+        margin: 20px auto;
+        background-color: #FFFFFF;
+    }
+
+.showbox .image {
+    display: inline-block;
+    width: 30%;
+    margin: 0px -2px;
+    vertical-align: top;
+}
+
+    .showbox .image img {
+        width: 100%;
+    }
+
+.showbox .infobox {
+    display: inline-block;
+    width: 70%;
+    margin: 0px -2px;
+    vertical-align: top;
+}
+
+.infobox .info {
+    padding: 20px;
+}
+
+.info h1 {
+    font-family: Microsoft PhagsPa;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+    color: #9013FE;
+}
+
+.info p {
+    height: 50px;
+    font-family: Microsoft PhagsPa;
+    font-size: 16px;
+    color: #000000;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.box01, .box02 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.locationzone {
+    display: inline;
+    margin: 10px auto;
+    margin-right: 20px;
+    font-family: Microsoft PhagsPa;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.categoriesname {
+    height: 24px;
+    display: inline;
+    margin: 10px auto;
+    padding: 2px 10px;
+    color: #FFFFFF;
+    background: #D7D7D7;
+    border-radius: 100px;
+}
+
+.locationname {
+    display: inline;
+    font-family: Microsoft PhagsPa;
+    font-size: 16px;
+    color: #9B9B9B;
+    margin-right: 10px;
+}
+
+.date {
+    display: inline;
+    font-family: Microsoft PhagsPa;
+    font-size: 16px;
+    color: #9B9B9B;
+}
+
+.fa-calendar-alt, .fa-map-marker-alt {
+    color: #000000;
+    margin-right: 10px;
+}
+
+.pagebox {
+    text-align: right;
+    margin: 20px;
+}
+
+    .pagebox div {
+        font-family: Microsoft PhagsPa;
+        display: inline-block;
+        margin: 0px -2px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        background: #FFFFFF;
+        border: 1px solid #ECEEEF;
+        text-align: center;
+        cursor: pointer;
+        color: #9013FE;
+    }
+
+        .pagebox div:hover {
+            font-family: Microsoft PhagsPa;
+            display: inline-block;
+            margin: 0px -2px;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            background: #F2f2f2;
+            border: 1px solid #ECEEEF;
+            text-align: center;
+            cursor: pointer;
+        }
+
+    .pagebox .previous, .pagebox .next {
+    }
+
+    .pagebox .active {
+        font-family: Microsoft PhagsPa;
+        font-size: 16px;
+        color: #FFFFFF;
+        background: #9013FE;
+        border: 1px solid #9013FE;
+        cursor: pointer;
+    }
+
+@media only screen and (min-device-width : 414px) and (max-device-width : 768px),(max-width: 768px) {
+    .logobox {
+        width: 40%;
+    }
+
+    .searchbox {
+        width: 60%;
+    }
+
+    .menu {
+        margin: 0px;
+    }
+
+    .menubox {
+        width: 40%;
+    }
+
+    .mainbox {
+        width: 50%;
+        margin: 0px 5%;
+    }
+
+    .search {
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    .showbox .image {
+        width: 100%;
+        height: 196px;
+        overflow: hidden;
+    }
+
+    .showbox .infobox {
+        width: 100%;
+    }
+
+    .locationname {
+        display: block;
+    }
+}
+
+@media only screen and (max-device-width : 413px),(max-width: 413px) {
+    header {
+        height: auto;
+    }
+
+    .logobox {
+        width: 100%;
+        text-align: center;
+    }
+
+    .searchbox {
+        width: 100%;
+    }
+
+    .search {
+        margin: 0px auto;
+    }
+
+    .menubox {
+        display: block;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .mainbox {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .tipe {
+        width: 10%;
+        display: inline-block;
+        float: right;
+        text-align: right;
+        font-weight: bold;
+        color: #9B9B9B;
+    }
+
+    .datemobile, .categoriesmobile {
+        display: none;
+    }
+
+    .show-results {
+        display: none;
+    }
+
+    .allshowbox {
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    .showbox .image {
+        width: 100%;
+        height: 196px;
+        overflow: hidden;
+    }
+
+    .showbox .infobox {
+        width: 100%;
+    }
+
+    .box01 {
+        margin: 20px 0px;
+    }
+
+    .locationzone {
+        margin-right: 5px;
+    }
+
+    .locationname, .date {
+        display: block;
+        margin: 5px 0px;
+    }
+}
+
+.btn {
+    border-radius: 28px;
+    background-color: #F2F2F2;
+    font-family: Microsoft PhagsPa;
+    color: #9013FE;
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+    border: solid #9013FE 2px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+    .btn:hover {
+        background: #ffffff;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+.btn2 {
+    border-radius: 28px;
+    background-color: #9013FE;
+    font-family: Microsoft PhagsPa;
+    color: #f2f2f2;
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+    border: solid #9013FE 2px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+    .btn2:hover {
+        background: #f2f2f2;
+        color: #9013FE;
+        text-decoration: none;
+        cursor: pointer;
+    }
